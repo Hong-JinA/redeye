@@ -1,0 +1,7 @@
+
+<!-- Summernote -->
+<link href="../resources/summernote/bootstrap.css" rel="stylesheet">
+<script src="../resources/summernote/jquery.js"></script>
+<script src="../resources/summernote/bootstrap.js"></script>
+<link href="../resources/summernote/summernote.css" rel="stylesheet">
+<script src="../resources/summernote/summernote.js"></script>
