@@ -35,49 +35,16 @@
 
 
 <body class="blog-page">
+
     <div class="wrapper">
         <!-- ******HEADER****** --> 
-
-        
-        <section class="featured-blog-posts section">       
-       
-            <div class="flexslider blog-slider">
-                <ul class="slides">
-                    <li class="slide slide-1">
-                        <div class="flex-caption container">
-                            <h3 class="title"><a href="#">Ideas are easy, execution is hard</a></h3>
-                            <div class="meta">16th Oct, 2014</div>
-                            <a class="more-link" href="blog-single.html">Read more &rarr;</a>
-                        </div><!--//flex-caption-->
-                    </li>
-                    <li class="slide slide-2">
-                        <div class="flex-caption container">
-                            <h3 class="title"><a href="#">Done is better than perfect</a></h3>
-                            <div class="meta">23rd Sep, 2014</div>
-                            <a class="more-link" href="blog-single.html">Read more &rarr;</a>
-                        </div><!--//flex-caption-->
-                    </li>
-                    <li class="slide slide-3">
-                        <div class="flex-caption container">
-                            <h3 class="title"><a href="#">The value of an idea lies in the using of it</a></h3>
-                            <div class="meta">18th Aug, 2014</div>
-                            <a class="more-link" href="blog-single.html">Read more &rarr;</a>
-                        </div><!--//flex-caption-->
-                    </li>
-                    <li class="slide slide-4">
-                        <div class="flex-caption container">
-                            <h3 class="title"><a href="#">Good design is good business</a></h3>
-                            <div class="meta">5th Aug, 2014</div>
-                            <a class="more-link" href="blog-single.html">Read more &rarr;</a>
-                        </div><!--//flex-caption-->
-                    </li>
-                </ul><!--//slides-->
-                 
-                
-            </div><!--//flexslider-->
+	
+        <section class="section">       
+       		<%@ include file="../include/login.jspf" %>
+            <%@ include file="../include/blog_header.jspf" %>
             
-           <div class="searchbox-container"  style="width:400px; float:right; margin-right: 400px">
-						<div class="searchbox">
+           <div class="searchbox-container"  style="width:400px; float:right; margin-right: 5px">
+						<div class="searchbox" style="float:right; margin-right: 380px; margin-top:5px">
 							<div class="col-md-5">
 								<select class="form-control searchbox-input" name="searchType">
 									<option value="n"
@@ -123,7 +90,7 @@
 </script>
 						</div>
 						
-					</div>
+					</div> 
 					<!--//searchbox-container-->
                     
         </section><!--//featured-blog-posts-->
@@ -194,19 +161,26 @@
                             	<c:otherwise>
                             		<li class="disabled"><a href="javascript:;">&raquo;</a></li>
                             	</c:otherwise>
+                            
                             </c:choose>
-
-
+							
+	
+                   			
+                   			
+               		
+               			
 
                     
                
                 </ul><!--//pagination-->
-                
-              <div style="float:right; margin-top:10px">
-                <form role="form" action="/sboard/register" method="get" >
-						<button type="submit" id="registerBtn" class="btn btn-inverse">글쓰기</button>
-				</form> 
-                </div>
+                 
+               	
+
+            	 <!--<div style="float:right; margin-top:10px">
+               		 <form role="form" action="/sboard/register" method="get" >
+						<button type="submit" id="registerBtn" class="btn btn-inverse">로그인</button>
+					</form> 
+                </div> -->
             </div><!--//pagination-container-->
             
         </div><!--//blog-->        

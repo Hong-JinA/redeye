@@ -1,6 +1,7 @@
-   <section class="featured-blog-posts section">       
+    
        
             <div class="flexslider blog-slider">
+                
                 <ul class="slides">
                     <li class="slide slide-1">
                         <div class="flex-caption container">
@@ -32,5 +33,6 @@
                     </li>
                 </ul><!--//slides-->
             </div><!--//flexslider-->
+            
+            <p style="clear:both;line-height:30px">&nbsp; </p>
                     
-        </section><!--//featured-blog-posts-->

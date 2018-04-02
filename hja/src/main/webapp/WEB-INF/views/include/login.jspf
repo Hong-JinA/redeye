@@ -1,0 +1,18 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+<div style="margin-top:50px;float:right;margin-right:100px">
+		<ul class="nav navbar-nav navbar-right">
+            		<c:choose>
+						<c:when test="${not empty login}">
+							<li><a href="/sboard/register">글쓰기</a></li>
+							<li><a href="/user/logout">로그아웃</a></li>
+						</c:when>
+						<c:otherwise>
+							<li><a  href="/user/signup">회원가입</a></li>
+            				<li><a href="/user/login">로그인</a></li>
+						</c:otherwise>
+					</c:choose>
+                </ul> </div>
+                <p style="clear:both;">&nbsp;</p>
+            
+				

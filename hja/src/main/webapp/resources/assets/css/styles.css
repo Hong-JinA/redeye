@@ -1518,7 +1518,7 @@ select {
 }
 /* ======= Blog Slideshow ======= */
 .blog-slider {
-  margin-bottom: 60px;
+  margin-bottom: 5px;
   margin-top: 80px;
   border: none;
   height: 400px;
@@ -3379,7 +3379,7 @@ select {
     text-align: left;
   }
   .blog-slider {
-    margin-top: 80px;
+    margin-top: 10px;
   }
   .why .item .title {
     margin-bottom: 15px;
